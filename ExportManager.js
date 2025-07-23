@@ -142,7 +142,7 @@ export class ExportManager {
 
         // Draw border effect on export pfp
         if (this.headerEditor.borderEffect === 'blck-cld-ring') {
-            const text = "BLCK CLD COLLECTIVE";
+            const text = "FutureProof";
             const exportPfpRadius = 400; // Radius for 1000x1000 canvas
             const textRadius = exportPfpRadius - 30; // Distance from center to text (inside circle, moved closer to border)
             const fontSize = 56; // Significantly increased font size for export visibility

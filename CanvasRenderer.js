@@ -216,7 +216,7 @@ export class CanvasRenderer {
 
     drawBorderEffect(pfpX, pfpY, pfpRadius) {
         if (this.headerEditor.borderEffect === 'blck-cld-ring') {
-            const text = "BLCK CLD COLLECTIVE";
+            const text = "FutureProof";
             const textRadius = pfpRadius - 15; // Distance from center to text (inside circle)
             const fontSize = 14; // Scaled down for preview
             
